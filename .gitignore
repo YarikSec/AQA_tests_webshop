@@ -1,0 +1,54 @@
+zинфо не в гит.txt
+.venv
+.idea
+allure-results
+
+# Игнорировать файлы и папки, связанные с PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Игнорировать виртуальное окружение
+venv/
+env/
+.venv/
+.env/
+
+# Игнорировать кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорировать файлы, созданные setuptools
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Игнорировать файлы, связанные с pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Игнорировать логи и временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Игнорировать файлы, связанные с операционной системой
+.DS_Store
+Thumbs.db
+
+# Игнорировать файлы, связанные с Jupyter Notebook
+.ipynb_checkpoints/
+
+# Игнорировать файлы, связанные с IDE
+.vscode/
+*.code-workspace
+
+# Игнорировать файлы, связанные с зависимостями
+Pipfile
+Pipfile.lock
+requirements.txt
