@@ -1,7 +1,4 @@
-zинфо не в гит.txt
-.venv
-.idea
-allure-results
+
 
 # Игнорировать файлы и папки, связанные с PyCharm
 .idea/
@@ -52,3 +49,10 @@ Thumbs.db
 Pipfile
 Pipfile.lock
 requirements.txt
+
+zинфо не в гит.txt
+.venv
+.idea
+allure-results
+.cursor
+.cursorrules
