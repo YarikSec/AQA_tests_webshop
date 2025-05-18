@@ -24,6 +24,7 @@ def browser_management():
     
     options = Options()
     options.add_argument('--headless')  # опционально для запуска в фоновом режиме (проверить на разных браузерах)
+    # Тут можно добавить другие опции для браузера
     browser.config.driver_options = options
     
     browser.open('')
@@ -31,4 +32,5 @@ def browser_management():
     yield
     
     attach_all_artifacts(browser) # добавляю в отчет allure все артефакты
+
     browser.quit()

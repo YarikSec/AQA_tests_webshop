@@ -1,7 +1,7 @@
 selene==2.0.0rc9
 pytest
-pytest-allure-pytest
 allure-pytest
 selenium
 requests
-
+httpx
+pydantic
